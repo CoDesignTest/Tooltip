@@ -1,0 +1,32 @@
+/* On style le conteneur du logo */
+
+.logoContainer{
+          margin:10em auto;
+}
+
+
+/* On donne une taille au conteneur et au logo */
+
+.logoContainer, img{
+          width:150px;
+          height:95px;
+}
+
+/* On style le paragraphe */
+
+p{
+          visibility: hidden;
+          width:200px;
+          background-color: #ffc2c7;
+          color:#ffffff;
+          font-size: 20px;
+          text-align: center;
+          border-radius: 10px;
+          padding:7px;
+          border:3px solid #5dd9fb;
+}
+
+.logoContainer:hover p{
+visibility: visible;
+margin-left:-1.8em;
+}
